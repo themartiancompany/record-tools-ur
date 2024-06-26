@@ -23,8 +23,10 @@ license=(
   AGPL3
 )
 depends=(
+  "bbrightnessctl"
   "libcrash-bash"
-  "net-tools"
+  "media-tools"
+  "touchctl"
 )
 _os="$( \
   uname \
@@ -32,6 +34,7 @@ _os="$( \
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
+    'termux-api'
   )
 optdepends=(
 )
