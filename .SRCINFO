@@ -11,6 +11,7 @@ pkgbase = record-tools
 	depends = libcrash-bash
 	depends = media-tools
 	depends = touchctl
+	depends = android-utils
 	depends = termux-api
 	source = record-tools-1bbbda17483d35fe062e4c1ac2b74ff99a6d5794.zip::https://github.com/themartiancompany/record-tools/archive/1bbbda17483d35fe062e4c1ac2b74ff99a6d5794.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9

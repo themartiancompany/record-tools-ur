@@ -34,6 +34,7 @@ _os="$( \
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
+    'android-utils'
     'termux-api'
   )
 optdepends=(
