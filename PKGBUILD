@@ -6,11 +6,11 @@
 _offline="false"
 _git="false"
 pkgname=record-tools
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
-_commit="1bbbda17483d35fe062e4c1ac2b74ff99a6d5794"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1
+_commit="c1a88836dfda845b13bb44bb1b7ebcca2c8f8113"
 pkgrel=1
 _pkgdesc=(
-  "Returns an unused local port."
+  "Recording tools."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -23,10 +23,9 @@ license=(
   AGPL3
 )
 depends=(
-  "bbrightnessctl"
+  "android-recorder"
   "libcrash-bash"
   "media-tools"
-  "touchctl"
 )
 _os="$( \
   uname \
