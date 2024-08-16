@@ -1,20 +1,19 @@
 pkgbase = record-tools
-	pkgdesc = Returns an unused local port.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgdesc = Recording tools.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/record-tools
 	arch = any
 	license = AGPL3
 	checkdepends = shellcheck
 	makedepends = make
-	depends = bbrightnessctl
+	depends = android-recorder
 	depends = libcrash-bash
 	depends = media-tools
-	depends = touchctl
 	depends = android-utils
 	depends = termux-api
-	source = record-tools-1bbbda17483d35fe062e4c1ac2b74ff99a6d5794.zip::https://github.com/themartiancompany/record-tools/archive/1bbbda17483d35fe062e4c1ac2b74ff99a6d5794.zip
+	source = record-tools-c1a88836dfda845b13bb44bb1b7ebcca2c8f8113.zip::https://github.com/themartiancompany/record-tools/archive/c1a88836dfda845b13bb44bb1b7ebcca2c8f8113.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 5079258a941ac2ec463e478211bdde6da3461ee1b5b8c7028c742b8b84edb6ed
+	sha256sums = 05f7ee9c775c798d13d9cc9141db262c9b4660d51a9d44d4f817e1d9692b4b2d
 
 pkgname = record-tools
